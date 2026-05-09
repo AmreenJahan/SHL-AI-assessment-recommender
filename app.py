@@ -11,7 +11,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
 from models import ChatRequest, ChatResponse, HealthResponse
-from retriever_ultra import get_ultra_retriever
+from retriever_simple import get_simple_retriever
 from chat_logic_ultra import get_ultra_chat_logic
 
 # Configure logging

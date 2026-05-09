@@ -10,7 +10,7 @@ import re
 from typing import List, Dict, Any
 
 from models import Message, ChatResponse, Assessment
-from retriever_ultra import get_ultra_retriever
+from retriever_simple import get_simple_retriever
 from guardrails import get_guardrails
 
 # Configure logging
@@ -27,7 +27,7 @@ class UltraLightChatLogic:
     
     def __init__(self):
         """Initialize with rule-based logic."""
-        self.retriever = get_ultra_retriever()
+        self.retriever = get_simple_retriever()
         self.guardrails = get_guardrails()
         logger.info("Ultra-lightweight chat logic initialized (rule-based)")
     
