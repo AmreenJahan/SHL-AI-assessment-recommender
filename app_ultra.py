@@ -1,7 +1,7 @@
 """
 Ultra-lightweight FastAPI application for SHL Assessment Recommender.
 
-Optimized for 512MB memory constraints with no ML dependencies.
+Optimized for 512MB memory constraints with minimal dependencies.
 """
 
 import os
@@ -12,7 +12,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from models import ChatRequest, ChatResponse, HealthResponse
 from retriever_ultra import get_ultra_retriever
-from chat_logic_ultra import get_ultra_chat_logic
+from chat_logic import get_chat_logic
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -50,7 +50,8 @@ async def chat(request: ChatRequest):
     """
     try:
         # Initialize components on demand
-        chat_logic = get_ultra_chat_logic()
+        retriever = get_ultra_retriever()
+        chat_logic = get_chat_logic()
         
         # Process message
         response = chat_logic.process_message(request.messages)

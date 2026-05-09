@@ -14,8 +14,19 @@ import os
 from typing import List, Dict, Any, Optional
 import requests
 
+# Try ultra-lightweight first, fallback to full versions
+try:
+    from embedder_ultra import get_ultra_embedder
+    from retriever_ultra import get_ultra_retriever
+    from chat_logic_ultra import get_ultra_chat_logic
+    ULTRA_MODE = True
+    logger.info("Using ultra-lightweight mode")
+except ImportError:
+    from embedder import get_embedder
+    from retriever import get_retriever
+    ULTRA_MODE = False
+    logger.info("Using full mode")
 from models import Message, ChatResponse, Assessment, CatalogItem
-from retriever import get_retriever
 from guardrails import get_guardrails
 from prompts import PromptTemplates
 
