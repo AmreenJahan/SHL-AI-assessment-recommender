@@ -1,0 +1,218 @@
+[
+  {
+    "name": "OPQ32",
+    "url": "https://www.shl.com/solutions/products/product-catalog/opq32/",
+    "description": "Occupational Personality Questionnaire - measures 32 behavioral characteristics relevant to workplace performance",
+    "test_type": "Personality",
+    "duration": "30 minutes",
+    "remote_testing": true
+  },
+  {
+    "name": "OPQ",
+    "url": "https://www.shl.com/solutions/products/product-catalog/opq32/",
+    "description": "Occupational Personality Questionnaire - measures 32 behavioral characteristics relevant to workplace performance",
+    "test_type": "Personality",
+    "duration": "30 minutes",
+    "remote_testing": true
+  },
+  {
+    "name": "GSA",
+    "url": "https://www.shl.com/solutions/products/product-catalog/g-plus/",
+    "description": "General mental ability assessment covering verbal, numerical, and abstract reasoning",
+    "test_type": "Cognitive",
+    "duration": "45 minutes",
+    "remote_testing": true
+  },
+  {
+    "name": "G+ General Ability Test",
+    "url": "https://www.shl.com/solutions/products/product-catalog/g-plus/",
+    "description": "General mental ability assessment covering verbal, numerical, and abstract reasoning",
+    "test_type": "Cognitive",
+    "duration": "45 minutes",
+    "remote_testing": true
+  },
+  {
+    "name": "Java Programming Test",
+    "url": "https://www.shl.com/solutions/products/product-catalog/java-programming/",
+    "description": "Assesses Java programming skills including syntax, data structures, and problem-solving",
+    "test_type": "Technical",
+    "duration": "60 minutes",
+    "remote_testing": true
+  },
+  {
+    "name": "Python Programming Test",
+    "url": "https://www.shl.com/solutions/products/product-catalog/python-programming/",
+    "description": "Evaluates Python programming proficiency including data structures and algorithms",
+    "test_type": "Technical",
+    "duration": "55 minutes",
+    "remote_testing": true
+  },
+  {
+    "name": "Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/product-catalog/verbal-reasoning/",
+    "description": "Measures ability to understand and analyze written information",
+    "test_type": "Cognitive",
+    "duration": "18 minutes",
+    "remote_testing": true
+  },
+  {
+    "name": "Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/product-catalog/numerical-reasoning/",
+    "description": "Assesses ability to interpret and analyze numerical data, charts, and graphs",
+    "test_type": "Cognitive",
+    "duration": "20 minutes",
+    "remote_testing": true
+  },
+  {
+    "name": "Abstract Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/product-catalog/abstract-reasoning/",
+    "description": "Measures logical thinking and problem-solving ability using patterns and diagrams",
+    "test_type": "Cognitive",
+    "duration": "15 minutes",
+    "remote_testing": true
+  },
+  {
+    "name": "Customer Service Aptitude Test",
+    "url": "https://www.shl.com/solutions/products/product-catalog/customer-service/",
+    "description": "Measures customer service skills including communication and problem-solving",
+    "test_type": "Behavioral",
+    "duration": "25 minutes",
+    "remote_testing": true
+  },
+  {
+    "name": "Sales Assessment",
+    "url": "https://www.shl.com/solutions/products/product-catalog/sales-assessment/",
+    "description": "Evaluates sales capabilities including persuasion and negotiation skills",
+    "test_type": "Behavioral",
+    "duration": "35 minutes",
+    "remote_testing": true
+  },
+  {
+    "name": "Leadership Assessment",
+    "url": "https://www.shl.com/solutions/products/product-catalog/leadership/",
+    "description": "Assesses leadership potential including strategic thinking and people management",
+    "test_type": "Leadership",
+    "duration": "40 minutes",
+    "remote_testing": true
+  },
+  {
+    "name": "Mechanical Comprehension Test",
+    "url": "https://www.shl.com/solutions/products/product-catalog/mechanical-comprehension/",
+    "description": "Evaluates understanding of mechanical and physical principles",
+    "test_type": "Technical",
+    "duration": "25 minutes",
+    "remote_testing": true
+  },
+  {
+    "name": "Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/product-catalog/situational-judgment/",
+    "description": "Assesses judgment and decision-making in workplace scenarios",
+    "test_type": "Behavioral",
+    "duration": "30 minutes",
+    "remote_testing": true
+  },
+  {
+    "name": "Work Styles Questionnaire",
+    "url": "https://www.shl.com/solutions/products/product-catalog/work-styles/",
+    "description": "Evaluates work preferences and behavioral tendencies",
+    "test_type": "Personality",
+    "duration": "20 minutes",
+    "remote_testing": true
+  },
+  {
+    "name": "Problem Solving Assessment",
+    "url": "https://www.shl.com/solutions/products/product-catalog/problem-solving/",
+    "description": "Measures analytical thinking and problem-solving approach",
+    "test_type": "Cognitive",
+    "duration": "35 minutes",
+    "remote_testing": true
+  },
+  {
+    "name": "Communication Skills Test",
+    "url": "https://www.shl.com/solutions/products/product-catalog/communication/",
+    "description": "Assesses written and verbal communication abilities",
+    "test_type": "Behavioral",
+    "duration": "25 minutes",
+    "remote_testing": true
+  },
+  {
+    "name": "Critical Thinking Test",
+    "url": "https://www.shl.com/solutions/products/product-catalog/critical-thinking/",
+    "description": "Measures ability to analyze information and make logical decisions",
+    "test_type": "Cognitive",
+    "duration": "30 minutes",
+    "remote_testing": true
+  },
+  {
+    "name": "Emotional Intelligence Assessment",
+    "url": "https://www.shl.com/solutions/products/product-catalog/emotional-intelligence/",
+    "description": "Evaluates emotional awareness and management skills",
+    "test_type": "Personality",
+    "duration": "25 minutes",
+    "remote_testing": true
+  },
+  {
+    "name": "Database Design Test",
+    "url": "https://www.shl.com/solutions/products/product-catalog/database-design/",
+    "description": "Assesses database design and SQL skills",
+    "test_type": "Technical",
+    "duration": "45 minutes",
+    "remote_testing": true
+  },
+  {
+    "name": "Coding Assessment - Full Stack",
+    "url": "https://www.shl.com/solutions/products/product-catalog/full-stack-coding/",
+    "description": "Comprehensive coding test covering front-end, back-end, and database skills",
+    "test_type": "Technical",
+    "duration": "90 minutes",
+    "remote_testing": true
+  },
+  {
+    "name": "Project Management Assessment",
+    "url": "https://www.shl.com/solutions/products/product-catalog/project-management/",
+    "description": "Measures project planning, execution, and coordination skills",
+    "test_type": "Skills",
+    "duration": "40 minutes",
+    "remote_testing": true
+  },
+  {
+    "name": "Data Entry Test",
+    "url": "https://www.shl.com/solutions/products/product-catalog/data-entry/",
+    "description": "Measures typing speed and accuracy for data entry positions",
+    "test_type": "Skills",
+    "duration": "10 minutes",
+    "remote_testing": true
+  },
+  {
+    "name": "Attention to Detail Test",
+    "url": "https://www.shl.com/solutions/products/product-catalog/attention-detail/",
+    "description": "Assesses accuracy and precision in work",
+    "test_type": "Skills",
+    "duration": "12 minutes",
+    "remote_testing": true
+  },
+  {
+    "name": "Teamwork Assessment",
+    "url": "https://www.shl.com/solutions/products/product-catalog/teamwork/",
+    "description": "Evaluates collaboration and team interaction skills",
+    "test_type": "Behavioral",
+    "duration": "20 minutes",
+    "remote_testing": true
+  },
+  {
+    "name": "Time Management Test",
+    "url": "https://www.shl.com/solutions/products/product-catalog/time-management/",
+    "description": "Measures planning, prioritization, and time management skills",
+    "test_type": "Skills",
+    "duration": "15 minutes",
+    "remote_testing": true
+  },
+  {
+    "name": "Financial Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/product-catalog/financial-reasoning/",
+    "description": "Assesses financial analysis and decision-making skills",
+    "test_type": "Cognitive",
+    "duration": "35 minutes",
+    "remote_testing": true
+  }
+]
