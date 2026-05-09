@@ -59,7 +59,7 @@ class UltraLightRetriever:
             # Calculate relevance score
             score = self.embedder.get_relevance_score(query, search_text)
             
-            if score > 0.1:  # Only include relevant assessments
+            if score > 0.05:  # Lower threshold for more results
                 scored_assessments.append((assessment, score))
         
         # Sort by relevance score
