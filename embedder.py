@@ -43,7 +43,7 @@ class TextEmbedder:
         """
         try:
             logger.info(f"Loading Sentence Transformer model: {self.model_name}")
-            self.model = SentenceTransformer(self.model_name)
+            self.model = SentenceTransformer('paraphrase-MiniLM-L3-v2')  # Smaller model
             logger.info("Model loaded successfully")
         except Exception as e:
             logger.error(f"Failed to load model: {e}")
