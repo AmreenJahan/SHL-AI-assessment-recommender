@@ -59,11 +59,17 @@ class UltraLightRetriever:
             # Calculate relevance score
             score = self.embedder.get_relevance_score(query, search_text)
             
-            if score > 0.05:  # Lower threshold for more results
+            if score > 0.01:  # Very low threshold - include almost everything
                 scored_assessments.append((assessment, score))
         
         # Sort by relevance score
         scored_assessments.sort(key=lambda x: x[1], reverse=True)
+        
+        # If no results found, return top assessments as fallback
+        if not scored_assessments:
+            logger.info("No relevant assessments found, returning fallback assessments")
+            # Return top 5 assessments as fallback
+            return [(self.assessments[i], 0.3) for i in range(min(5, len(self.assessments)))]
         
         # Return top results
         return scored_assessments[:top_k]

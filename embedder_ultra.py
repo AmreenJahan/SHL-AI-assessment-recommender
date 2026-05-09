@@ -136,7 +136,7 @@ class UltraLightEmbedder:
             if query_has and text_has:
                 score += 0.1
         
-        return min(score + 0.2, 1.0)  # Add base score to ensure some results
+        return min(score + 0.4, 1.0)  # Higher base score to ensure results
 
 
 def get_ultra_embedder() -> UltraLightEmbedder:
